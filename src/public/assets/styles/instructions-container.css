@@ -1,0 +1,14 @@
+.instructions-container {
+    padding: 20px;
+}
+.instructions-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.instructions-container li {
+    color: var(--text-color-low);
+}
+.instructions-container li b {
+    color: var(--text-color-black);
+}

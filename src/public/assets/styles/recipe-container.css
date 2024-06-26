@@ -1,0 +1,12 @@
+.recipe-container {
+    padding: 20px;
+   
+}
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.recipe-container li {
+    color: var(--text-color-low);
+}

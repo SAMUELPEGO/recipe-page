@@ -1,0 +1,46 @@
+.header-container .img-container {
+  min-width: 375px;
+  max-width: 720px;
+  display: flex;
+}
+.header-container .img-container img {
+ min-width: 375px;
+ 
+}
+.header-container header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.header-container header h1 {
+    color: var(--black);
+    
+}
+.header-container header p {
+    color: var(--black-opacity-60);
+    line-height: 25px;
+}
+.header-container h3 {
+    color: var(--violet);
+}
+.header-container div:last-of-type {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    background: hsla(322, 100%, 98%,100%);
+}
+.header-container div:last-of-type ul {
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;   
+}
+.header-container li b {
+    color: var(--text-color-black);
+}
+.header-container li  {
+    color: var(--text-color-low);
+}
